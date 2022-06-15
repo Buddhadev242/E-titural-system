@@ -1,0 +1,60 @@
+﻿<%@ Master Language="VB" CodeFile="user.master.vb" Inherits="user" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="sitebox">
+<!--Header-->
+  <div id="header"> 
+    <h1>&nbsp;e-Tutorial </h1>
+    <div class="subtitle" style="color: #228B22"> <span>Provide Study Material</span></div>
+ 
+</div>
+<!--Navigation-->
+  <div id="navigation" style="font-size: small;  color: #000000">
+   <a href="UserHome.aspx" title="Click to upload your image">Home</a>
+      <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/UserLogin.aspx">Login</asp:HyperLink>
+      <asp:LinkButton ID="lbtnLogout" runat="server" Visible="False">Logout</asp:LinkButton>
+   <a href="contact.aspx" title="contact">Contact</a>
+    <a href="search.aspx" title="contact">Search</a>
+
+     <a href="Viewsugg.aspx" title="contact">Suggested View</a>
+   <br />
+   <img src="SiteImage/topimage.jpg" width="780" height="200" /></img> </div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+  <div id="content">
+      <asp:Panel ID="Panel1" runat="server" >
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+          </asp:ContentPlaceHolder>
+      </asp:Panel>
+  </div>  
+    <br/>
+<br/>
+<br/>
+<br/>  
+  <div id="footer">Provide Study Material
+   </div>
+
+</div>
+<br/><center><a href="http://www.google.com/" title="Designe By Animesh Manna" 
+            target="_blank" style="font-size: small; color: #fff">Google Search</a></center>
+
+    </form>
+</body>
+</html>

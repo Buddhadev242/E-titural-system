@@ -1,0 +1,118 @@
+﻿body {
+background: #fff url(SiteImage/backg.jpg) ;
+font-family: Times New Roman,verdana, arial, Trebuchet MS;
+font-size: 80%;
+color: #b0b0b0;}
+
+*{
+margin: 0px;
+padding: 0px;}
+
+#sitebox { 
+width: 780px;
+height: 100%;
+margin-top: 10px;
+background: #f4f4f4;
+color: #000;
+border: 1px solid #c0c0c0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+
+#header {
+background: #f4f4f4 url(SiteImage/headgradient.png) repeat-x;
+width: 780px;
+height: 60px;
+}
+
+#header h1 {
+float: left;
+background: inherit;
+margin-left: 10px;
+color: #32CD32;
+text-transform: Times New Roman;
+font-weight:100;
+font-family: Times New Roman, Trebuchet MS, arial;
+font-size: 3em;
+}
+
+#header .subtitle {
+float: right;
+color: #d0d0d0;
+font-size: 0.93em;
+margin-top: 15px;
+margin-right: 30px;
+text-transform: lowercase;
+font-family: Times New Roman, verdana, arial;
+margin-left: 250px;}
+
+#header .subtitle span:hover {
+color: #000;
+background: #f4f4f4;}
+
+
+#navigation {
+clear: both;
+margin-top: 8px;
+height: 20px;
+background: #f4f4f4;}
+
+#navigation a {
+font-family: Trebuchet MS, arial;
+margin-left: 30px;
+background: #008080;
+text-transform: Times New Roman;
+color: 	#000000;
+font-size: 1.1em;
+text-decoration: none;
+letter-spacing: 0.1em;}
+
+#navigation a:hover {
+color: #F26F29;}
+
+#content  {
+margin-top: 85px;
+padding-right: 15px;
+line-height: 17px;
+width: 760px;
+float: left;
+background: #f4f4f4 url(dots.png) repeat-y right;
+color: #b0b0b0;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#content h2	   {
+margin-left: 15px;
+color: #134B6E;
+width: 599px;
+text-transform: uppercase;
+font-family: Times New Roman, Verdana, arial;
+font-size: 19px;
+background: #f4f4f4 url('h1bg.png') repeat-x 50% bottom;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p {
+color: #000000;
+font-family: verdana;
+margin-top: 5px;
+font-size: 0.9em;
+line-spacing: 0.3em;
+margin-left: 10px;}
+
+#footer{
+clear: both;
+margin-top:20px;
+width: 100%;
+font-size: 0.7em;
+background: #f4f4f4 url(SiteImage/h1bg.png) repeat-x bottom;
+height: 20px;
+color: #b0b0b0;
+text-align: center;
+}
